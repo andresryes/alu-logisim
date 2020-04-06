@@ -2,53 +2,54 @@
 
 ALU implementado en Logisim 
 
-      0.  Add
-	Devuelve A + B
-Sub 
-    	Devuelve A - B
-Addi
-	Devuelve A + B
-Mult 
-	Devuelve A * B
-Div
-	Devuelve A / B
-	*Implementamos uno de 4 bits, pero no pudimos expandirlo a 32 bits.
-Mfhi 
-	Devuelve lo que está en A
-Mflo 
-	Devuelve lo que está en A
-And 
+0.  Add
+Devuelve A + B
+1. Sub 
+Devuelve A - B
+2. Addi
+Devuelve A + B
+3. Mult 
+Devuelve A * B
+4. Div
+Devuelve A / B
+*Implementamos uno de 4 bits, pero no pudimos expandirlo a 32 bits.
+5. Mfhi 
+Devuelve lo que está en A
+6. Mflo 
+Devuelve lo que está en A
+7. And 
 Devuelve A AND B
-Or 
+8. Or 
 Devuelve A OR B
-Sll
+9. Sll
 Devuelve A con B shifts a la izquierda 
-Srl 
+10. Srl 
 Devuelve A con B shifts a la derecha
-J  
+11. J  
 Devuelve lo que está en A
-Jal
+12. Jal
 Devuelve lo que está en A 
-Jr  
+13. Jr  
 Devuelve lo que está en A
-Beq 
+14. Beq 
 Devuelve "Todos 1" si A = B
- Bne 
+15. Bne 
 Devuelve "Todos 1" si A != B
-Bgt 
+16. Bgt 
 Devuelve "Todos 1" si A > B
-Blt 
+17. Blt 
 Devuelve "Todos 1" si A < B 
-Move 
-	Devuelve lo que está en A
- Li 
-	Devuelve lo que está en A
-La 
-	Devuelve lo que está en A
-Lw 
-	Devuelve lo que está en A
- Sw
-	Devuelve lo que está en A
+18. Move 
+Devuelve lo que está en A
+19. Li 
+Devuelve lo que está en A
+20. La 
+Devuelve lo que está en A
+21. Lw 
+Devuelve lo que está en A
+22. Sw
+Devuelve lo que está en A
+
 
 
 Usamos la versión 3.3 evolution
